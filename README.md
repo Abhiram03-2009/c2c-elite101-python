@@ -12,7 +12,6 @@ Run this command to execute the application:
 
 `python main.py`
 
-"""
     Welcome to Elite 101 this program is a starter for your chatbot project.
     The starter prompts the user to enter their name and then greets them with a personalized message.
 
@@ -23,21 +22,19 @@ Run this command to execute the application:
 
     Execution:
         When the script is run directly (not imported as a module), it will execute the main() function.
-"""
 
 
-def get_user_name():
-    return input("Please enter your name: ")
+    def get_user_name():
+        return input("Please enter your name: ")
 
-def greet_user(name):
-    print(f"Hello, {name}, how are you?")
+    def greet_user(name):
+        print(f"Hello, {name}, how are you?")
 
-def main():
-    user_name = get_user_name()
-    greet_user(user_name)
+    def main():
+        user_name = get_user_name()
+        greet_user(user_name)
 
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
  
-
 ```
